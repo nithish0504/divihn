@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.maindiv {
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    max-height: 100vh;
+    min-width: 100vw;
+    padding: 0px;
+}
+
+
+
+.div1 {
+    min-width: 48vw;
+    max-width: 48vw;
+    min-height: 100%;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    background: linear-gradient(0deg,
+            rgba(91, 91, 91, 0.85),
+            rgba(91, 91, 91, 0.85)),
+        url(.jpg);
+}
+
+.div2 {
+    min-width: 52vw;
+    max-width: 52vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+
+}
+
+.div3 {
+    min-width: 50vw;
+    max-width: 52vw;
+    min-height: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background: #F0F0F0;
+}
+
+.div1-1 {
+    align-self: flex-start;
+}
+
+.div1-2 {
+    align-self: center;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.clientsvg {
+    height: 100px;
+    width: 100px;
+}
+
+.p1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 38px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.p1-1 {
+    text-align: left;
+}
+
+
+.div1-2-inner {
+    align-self: flex-end;
+}
+
+.div2-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.p2 {
+    font-size: 20px;
+    padding: 2px;
+}
+
+.p2a {
+    color: orange;
+}
+
+.div2-2 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.d2h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+.div2-21 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+.d22p {
+    color: #8692A6;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+}
+
+.div2-22 {
+    border: solid 1px red;
+    align-self: center;
+    border-radius: 8px;
+    margin: 10px;
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div2-22:hover {
+    background: rgba(254, 142, 34, 0.08);
+}
+
+.bgo {
+    background: rgba(254, 142, 34, 0.08);
+}
+
+
+.svg1 {
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#svg11 {
+    max-width: 50%;
+    max-height: 10px;
+}
+
+.div2-22-1 {
+    max-width: 50%;
+}
+
+.d221p {
+    font-weight: bold;
+}
+
+.d221p1 {
+    font-weight: bold;
+}
+
+.backdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.div3-1 {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    min-height: 85vw;
+}
+
+.div3h {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 5px;
+}
+
+.div3p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #8692A6;
+    text-align: center;
+}
+
+.signupForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px;
+
+
+}
+
+.lable {
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #696F79;
+    text-align: left;
+}
+
+.inptu {
+    width: 80%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #8692A6;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 6px;
+    margin: 10px;
+    align-self: flex-start;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #494949;
+    padding: 4px;
+}
+
+.inptu:active {
+    border: 1px solid #FE8E22;
+}
+
+.formdiv {
+    display: flex;
+    align-items: center;
+}
+
+.formcheck {
+    background: #FE8E22;
+}
+
+.formp {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #696F79;
+}
+
+.submitbtn {
+    width: 60%;
+    height: 50px;
+    background: rgba(254, 142, 34, 0.95);
+    border-radius: 6px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    align-self: center;
+}
+
+.or {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BABABA;
+}
+
+.socialbtndiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.fb {
+    background: #3B5998;
+    color: #ffffff;
+}
+
+@media screen and (max-width:575px) {
+    .div1-1 {
+        align-self: flex-start;
+        max-width: 50%;
+    }
+
+    .p1 {
+        font-size: 8px;
+    }
+}
